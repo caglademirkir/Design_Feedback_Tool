@@ -18,7 +18,7 @@ function readURL(input) {
         var y = event.clientY - (circle.offsetHeight / 2);
 
         var translate3dValue = "translate3d(" + x +"px," + y + "px,0)";
-        circle.style.transform = translate3dValue; 
+        circle.style.transform = translate3dValue;
 
     }
 }
