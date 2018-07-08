@@ -3,7 +3,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    /* float: left; */
 }
 
 
@@ -45,9 +44,6 @@ h1{
     color: #666;
     text-align: center;
     z-index: 3;
-    
-
-    /* transform: translate3d(50px,50px,0); */
 }
 
 #blah{
