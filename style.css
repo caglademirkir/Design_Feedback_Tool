@@ -29,12 +29,7 @@ h1{
     
 }
 
-.demo {
-    position: absolute;
-    text-align:center;
-}
-
-.numberCircle {
+#numberCircle {
     position: absolute;
     border-radius: 50%;
     width: 20px;
