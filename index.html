@@ -10,21 +10,23 @@
     <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
 
     <body>
-        <div id="numberCircle">0</div>
-        <div><h1>DESIGN FEEDBACK TOOL</h1></div>          
-        
+        <div>
+            <h1>DESIGN FEEDBACK TOOL</h1>
+        </div>
         <div class="content">
             <form action="/action_page.php" method="post" target="_blank">
-                <input type='file' accept='image/*' onchange="readURL(this);">  
+                <input type='file' accept='image/*' onchange="readURL(this);">
             </form>
-        <div class="imgConteiner">  
-            <div class="img">            
-                <img id="blah" src="#" alt="your image"/>  
+            <div class="imgContainer">
+                <div class="img">
+                    <img id="blah" src="#" alt="your image" />
+                    <div id="circleContent">
+                        <div id="numberCircle" class="numberCircleFirst">0</div>
+                    </div>
+                </div>
+
             </div>
-        </div>             
-        </div>        
+        </div>
     </body>
-
 </head>
-
 </html>

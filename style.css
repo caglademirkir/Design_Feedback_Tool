@@ -24,12 +24,24 @@ h1{
     font-size: 40px;
 }
 
-.imgConteiner{
+.imgContainer{
     position: relative;
     
 }
+.numberCircleFirst {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: rgb(221, 3, 3);
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    z-index: 3;
+    display: none;
+}
 
-#numberCircle {
+.numberCircle {
     position: absolute;
     border-radius: 50%;
     width: 20px;
